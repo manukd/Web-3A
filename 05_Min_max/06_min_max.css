@@ -10,13 +10,63 @@ img {
 	width: 100%;
 	height: auto;
 }
-.un {
-	background-color: #333;
-	min-width: 500px;
+
+@media screen and (min-width: 1266px){
+	.un {
+		background-color: #333;
+		min-width: 500px;
+		/*Ajouter*/
+		max-width: 30%;
+		float: left;
+	}
+	.deux {
+		background-color: #666;
+
+		max-width: 30%;
+		float: left;
+	}
+	.trois {
+		background-color: #ccc;
+
+		max-width: 30%;
+		float: left;
+	}
 }
-.deux {
-	background-color: #666
+
+@media screen and (min-width: 601px) and (max-width: 1265px){
+	.un {
+		background-color: #333;
+		min-width: 350px;
+		/*Ajouter*/
+		max-width: 500px;
+	}
+	.deux {
+		background-color: #666;
+
+		max-width: 40%;
+		float: left;
+	}
+	.trois {
+		background-color: #ccc;
+
+		max-width: 40%;
+		float: left;
+	}
 }
-.trois {
-	background-color: #ccc
+
+@media screen and (max-width: 600px){
+	.un {
+		background-color: #333;
+		min-width: 500px;
+		/*Ajouter*/
+		max-width: 30%;
+	}
+	.deux {
+		background-color: #666;
+		max-width: 50%;
+	}
+	.trois {
+		background-color: #ccc;
+		max-width: 50%;
+	}
 }
