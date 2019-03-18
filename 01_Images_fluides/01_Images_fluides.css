@@ -1,0 +1,13 @@
+p.text {
+	float:left;
+	width:60%;
+}
+div.img-wrap{
+	float:right;
+	width:40%;
+}
+.responsive
+{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,33 @@
+@media screen and ( max-width: 800px ) {
+	.petit-menu { display: inline; }
+	.grand-menu { display: none; }
+	.contenu: { width: 100%; }
+}
+
+@media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
+	.petit-menu { display: none; }
+	.grand-menu { 
+		display:inline; 
+		width: 100%; 
+	}
+
+	.grand-menu ul { list-style-type: none; }
+	.grand-menu ul li { display: inline; }
+	
+	.contenu: { width: 100%; }
+}
+
+@media screen and ( min-width: 1025px ) {
+	.petit-menu { 
+		display: none; 
+		}
+	.grand-menu { 
+		display: inline; 
+		float: left; 
+		width: 20%;
+		}
+	.contenu{
+		float: right;
+		width: 80%;
+		}
+}
