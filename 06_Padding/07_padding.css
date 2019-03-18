@@ -1,0 +1,12 @@
+.contenu {
+	padding: 0% 5%;  /*##########*/
+}
+aside {
+	padding: 0% 10% 0% 20%; /*#########*/
+}
+.commentaire {
+
+	padding: 0% 0%  0%  10%/*#########*/
+	background-color: #ccc;
+	border: 1px solid #333;
+}
